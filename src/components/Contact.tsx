@@ -24,8 +24,8 @@ const Contact = () => {
   const contactInfo = [
     { icon: MessageCircle, title: 'Live Chat', info: 'Available 24/7', link: '#' },
     { icon: Mail, title: 'Email Support', info: 'support@bytera.com', link: 'mailto:support@bytera.com' },
-    { icon: Phone, title: 'Phone Support', info: '+1 (555) 123-4567', link: 'tel:+15551234567' },
-    { icon: MapPin, title: 'Location', info: 'Global Services', link: '#' }
+    { icon: Phone, title: 'Phone Support', info: '+62 85707594952', link: 'tel:+6285707594952' },
+    { icon: MapPin, title: 'Location', info: 'Mojokerto', link: '#' }
   ];
 
   return (
