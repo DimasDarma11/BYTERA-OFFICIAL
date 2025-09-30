@@ -34,7 +34,7 @@ const Contact = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
-              Get In Touch
+              Hubungi Kami
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
@@ -92,7 +92,7 @@ const Contact = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-semibold text-gray-300 mb-2">
-                    Full Name *
+                    Nama Lengkap *
                   </label>
                   <input
                     type="text"
@@ -102,13 +102,13 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent text-white placeholder-gray-400 transition-all duration-300"
-                    placeholder="Enter your full name"
+                    placeholder="Masukkan nama lengkap Anda"
                   />
                 </div>
 
                 <div>
                   <label htmlFor="email" className="block text-sm font-semibold text-gray-300 mb-2">
-                    Email Address *
+                    Email *
                   </label>
                   <input
                     type="email"
@@ -118,13 +118,13 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent text-white placeholder-gray-400 transition-all duration-300"
-                    placeholder="Enter your email address"
+                    placeholder="Masukkan alamat email Anda"
                   />
                 </div>
 
                 <div>
                   <label htmlFor="service" className="block text-sm font-semibold text-gray-300 mb-2">
-                    Service Interested In
+                    Layanan
                   </label>
                   <select
                     id="service"
@@ -143,7 +143,7 @@ const Contact = () => {
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-semibold text-gray-300 mb-2">
-                    Project Details *
+                    Detail Proyek *
                   </label>
                   <textarea
                     id="message"
@@ -153,7 +153,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent text-white placeholder-gray-400 resize-none transition-all duration-300"
-                    placeholder="Tell us about your project requirements..."
+                    placeholder="Ceritakan kepada kami tentang persyaratan proyek Anda..."
                   />
                 </div>
 
