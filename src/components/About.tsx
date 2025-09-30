@@ -27,7 +27,7 @@ const About = () => {
 
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
-              <h3 className="text-2xl font-bold text-white mb-6">Our Mission</h3>
+              <h3 className="text-2xl font-bold text-white mb-6">Misi kami</h3>
               <p className="text-gray-300 leading-relaxed mb-6">
                 Di Bytera, kami percaya pada transformasi lanskap digital melalui teknologi mutakhir
                 dan keunggulan kreatif. Misi kami adalah menyediakan solusi VPS/RDP kelas dunia, layanan pemrograman khusus, 
@@ -41,7 +41,7 @@ const About = () => {
             
             <div className="relative">
               <div className="bg-gradient-to-br from-yellow-400/20 to-blue-400/20 p-8 rounded-2xl border border-gray-700">
-                <h4 className="text-xl font-bold text-yellow-400 mb-4">Why Choose Us?</h4>
+                <h4 className="text-xl font-bold text-yellow-400 mb-4">Mengapa Memilih Kami?</h4>
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start">
                     <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
