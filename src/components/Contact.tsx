@@ -38,8 +38,8 @@ const Contact = () => {
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Ready to start your next project? Contact us today and let's discuss 
-            how we can help bring your vision to life.
+            Siap memulai proyek Anda berikutnya? Hubungi kami hari ini dan mari kita bahas
+            bagaimana kami dapat membantu mewujudkan visi Anda.
           </p>
         </div>
 
@@ -47,7 +47,7 @@ const Contact = () => {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h3 className="text-2xl font-bold text-white mb-8">Contact Information</h3>
+              <h3 className="text-2xl font-bold text-white mb-8">Informasi Kontak</h3>
               
               <div className="space-y-6 mb-8">
                 {contactInfo.map((item, index) => (
@@ -69,19 +69,19 @@ const Contact = () => {
               </div>
 
               <div className="bg-gradient-to-br from-yellow-400/10 to-blue-400/10 p-6 rounded-2xl border border-gray-700">
-                <h4 className="text-xl font-bold text-yellow-400 mb-4">Business Hours</h4>
+                <h4 className="text-xl font-bold text-yellow-400 mb-4">Jam Kerja</h4>
                 <div className="space-y-2 text-gray-300">
                   <div className="flex justify-between">
-                    <span>Monday - Friday:</span>
+                    <span>Senin - Jum'at:</span>
                     <span>9:00 AM - 6:00 PM</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Saturday:</span>
+                    <span>Sabtu:</span>
                     <span>10:00 AM - 4:00 PM</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Sunday:</span>
-                    <span>Emergency Support Only</span>
+                    <span>Minggu:</span>
+                    <span>Hanya Dukungan Darurat</span>
                   </div>
                 </div>
               </div>
@@ -133,7 +133,7 @@ const Contact = () => {
                     onChange={handleChange}
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent text-white transition-all duration-300"
                   >
-                    <option value="">Select a service</option>
+                    <option value="">Pilih layanan</option>
                     <option value="vps-rdp">VPS & RDP Solutions</option>
                     <option value="programming">Custom Programming</option>
                     <option value="design">3D Design & Graphics</option>
@@ -162,7 +162,7 @@ const Contact = () => {
                   className="w-full group px-6 py-4 bg-gradient-to-r from-yellow-400 to-yellow-600 text-gray-900 font-semibold rounded-lg hover:from-yellow-300 hover:to-yellow-500 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
                 >
                   <span className="flex items-center justify-center">
-                    Send Message
+                    Kirim Pesan
                     <Send className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
                   </span>
                 </button>
