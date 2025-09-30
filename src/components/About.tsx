@@ -20,8 +20,8 @@ const About = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-300 leading-relaxed">
-              We are a premium digital solutions provider, dedicated to delivering exceptional 
-              services that drive innovation and success for our clients worldwide.
+              Kami adalah penyedia solusi digital premium, yang berdedikasi untuk memberikan layanan 
+              luar biasa yang mendorong inovasi dan kesuksesan bagi klien kami di seluruh dunia.
             </p>
           </div>
 
@@ -29,14 +29,13 @@ const About = () => {
             <div>
               <h3 className="text-2xl font-bold text-white mb-6">Our Mission</h3>
               <p className="text-gray-300 leading-relaxed mb-6">
-                At Bytera, we believe in transforming digital landscapes through cutting-edge 
-                technology and creative excellence. Our mission is to provide world-class 
-                VPS/RDP solutions, custom programming services, and stunning design work 
-                that exceeds expectations.
+                Di Bytera, kami percaya pada transformasi lanskap digital melalui teknologi mutakhir
+                dan keunggulan kreatif. Misi kami adalah menyediakan solusi VPS/RDP kelas dunia, layanan pemrograman khusus, 
+                dan karya desain memukau yang melampaui ekspektasi.
               </p>
               <p className="text-gray-300 leading-relaxed">
-                We combine technical expertise with creative vision to deliver solutions 
-                that are not only functional but also visually striking and user-friendly.
+                Kami menggabungkan keahlian teknis dengan visi kreatif untuk memberikan solusi
+                yang tidak hanya fungsional tetapi juga menarik secara visual dan ramah pengguna.
               </p>
             </div>
             
@@ -46,19 +45,19 @@ const About = () => {
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start">
                     <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    Premium quality services with attention to detail
+                    Layanan berkualitas premium dengan memperhatikan detail
                   </li>
                   <li className="flex items-start">
                     <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    24/7 customer support and maintenance
+                    24/7 dukungan dan pemeliharaan pelanggan
                   </li>
                   <li className="flex items-start">
                     <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    Competitive pricing with transparent costs
+                    Harga kompetitif dengan biaya transparan
                   </li>
                   <li className="flex items-start">
                     <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    Rapid deployment and quick turnaround times
+                    Penerapan cepat dan waktu penyelesaian cepat
                   </li>
                 </ul>
               </div>
