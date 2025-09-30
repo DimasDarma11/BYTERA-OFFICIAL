@@ -22,10 +22,10 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: MessageCircle, title: 'Live Chat', info: 'Available 24/7', link: '#' },
-    { icon: Mail, title: 'Email Support', info: 'support@bytera.com', link: 'mailto:support@bytera.com' },
-    { icon: Phone, title: 'Phone Support', info: '+62 85707594952', link: 'tel:+6285707594952' },
-    { icon: MapPin, title: 'Location', info: 'Mojokerto', link: '#' }
+    { icon: MessageCircle, title: 'Obrolan Langsung', info: 'Tersedia 24/7', link: '#' },
+    { icon: Mail, title: 'Dukungan Email', info: 'support@bytera.com', link: 'mailto:support@bytera.com' },
+    { icon: Phone, title: 'Dukungan Telepon', info: '+62 85707594952', link: 'tel:+6285707594952' },
+    { icon: MapPin, title: 'Lokasi', info: 'Mojokerto', link: '#' }
   ];
 
   return (
