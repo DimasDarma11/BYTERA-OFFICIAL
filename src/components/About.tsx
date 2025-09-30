@@ -3,10 +3,10 @@ import { Award, Users, Clock, Target } from 'lucide-react';
 
 const About = () => {
   const stats = [
-    { icon: Users, value: '500+', label: 'Happy Clients' },
-    { icon: Award, value: '50+', label: 'Projects Completed' },
-    { icon: Clock, value: '24/7', label: 'Support Available' },
-    { icon: Target, value: '99.9%', label: 'Uptime Guarantee' }
+    { icon: Users, value: '500+', label: 'Klien Kami' },
+    { icon: Award, value: '50+', label: 'Proyek Selesai' },
+    { icon: Clock, value: '24/7', label: 'Dukungan Tersedia' },
+    { icon: Target, value: '99.9%', label: 'Jaminan Waktu Aktif' }
   ];
 
   return (
