@@ -28,11 +28,11 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-6 animate-fade-in-up delay-300">
-            Premium Digital Solutions & Services
+           Solusi & Layanan Digital Premium
           </p>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto mb-8 animate-fade-in-up delay-500">
-            Transforming ideas into reality with cutting-edge VPS/RDP solutions, 
-            custom programming services, and stunning 3D designs
+            Mengubah ide menjadi kenyataan dengan solusi VPS/RDP mutakhir,
+            layanan pemrograman khusus, dan desain 3D yang memukau
           </p>
         </div>
         
@@ -42,7 +42,7 @@ const Hero = () => {
             className="group px-8 py-4 bg-gradient-to-r from-yellow-400 to-yellow-600 text-gray-900 font-semibold rounded-full hover:from-yellow-300 hover:to-yellow-500 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
           >
             <span className="flex items-center">
-              Explore Services
+              Jelajahi Layanan
               <ArrowDown className="ml-2 w-5 h-5 group-hover:animate-bounce" />
             </span>
           </button>
@@ -51,7 +51,7 @@ const Hero = () => {
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             className="px-8 py-4 border-2 border-yellow-400 text-yellow-400 font-semibold rounded-full hover:bg-yellow-400 hover:text-gray-900 transform hover:scale-105 transition-all duration-300"
           >
-            Get In Touch
+            Hubungi Kami
           </button>
         </div>
       </div>
